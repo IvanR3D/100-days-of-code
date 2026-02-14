@@ -2,7 +2,7 @@
 
 Welcome to [BigDevSoon](https://bigdevsoon.me) 👋
 
-Build real frontend projects with professional designs. Try this challenge in our **[free Demo Editor](https://bigdevsoon.me/demo/custom/browser)** or **[start your 7-day free trial](https://bigdevsoon.me)** for the full experience with Merlin AI - your coding companion that helps you ship faster.
+Build real frontend projects with professional designs. Try this challenge in our **[free Demo Editor](https://app.bigdevsoon.me/demo/custom/browser)** or **[start your 7-day free trial](https://app.bigdevsoon.me)** for the full experience with Merlin AI - your coding companion that helps you ship faster.
 
 ![Settings Appearance Design](./design.png)
 
@@ -27,10 +27,10 @@ As a user, I want to easily customize the appearance settings of my application,
 ## Get Started
 
 ### Option 1: Free Demo Editor
-Jump into the **[Demo Editor](https://bigdevsoon.me/demo/custom/browser)** - no sign-up required. Start coding instantly.
+Jump into the **[Demo Editor](https://app.bigdevsoon.me/demo/custom/browser)** - no sign-up required. Start coding instantly.
 
 ### Option 2: BigDevSoon Platform
-**[Join BigDevSoon](https://bigdevsoon.me)** with a 7-day free trial for the full experience:
+**[Join BigDevSoon](https://app.bigdevsoon.me)** with a 7-day free trial for the full experience:
 - Merlin AI - context-aware coding assistant built into the editor
 - Auto-save and cloud storage
 - One-click npm package imports

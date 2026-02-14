@@ -17,7 +17,7 @@ Perfect for the #100DaysOfCode movement - one challenge per day, from beginner-f
 
 ## Get Started
 
-**Try it free** - Jump into the [Demo Editor](https://bigdevsoon.me/demo/custom/browser) and start coding instantly, no sign-up needed.
+**Try it free** - Jump into the [Demo Editor](https://app.bigdevsoon.me/demo/custom/browser) and start coding instantly, no sign-up needed.
 
 **Full platform** - [BigDevSoon](https://bigdevsoon.me) comes with a **7-day free trial** that includes:
 
@@ -97,7 +97,7 @@ Time Estimate: X hours with AI vs ~Y hours without
 ## Community
 
 - Star this repo and share it with fellow developers
-- [Join BigDevSoon](https://bigdevsoon.me) - complete challenges with Merlin AI and track your progress
+- [Join BigDevSoon](https://app.bigdevsoon.me) - complete challenges with Merlin AI and track your progress
 - Share your solutions on [Twitter/X](https://twitter.com/BigDevSoon), [LinkedIn](https://www.linkedin.com/company/bigdevsoon), or [Discord](https://discord.gg/bigdevsoon)
 - Tag #100DaysOfCode and #BigDevSoon to connect with other builders
 

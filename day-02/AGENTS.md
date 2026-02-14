@@ -36,4 +36,4 @@ As a shopper, I want a clear and intuitive product page for a polo shirt that al
 
 ## Platform
 
-These challenges are part of [BigDevSoon](https://bigdevsoon.me) - try the [free Demo Editor](https://bigdevsoon.me/demo/custom/browser) or use Merlin AI on the full platform for context-aware coding assistance.
+These challenges are part of [BigDevSoon](https://bigdevsoon.me) - try the [free Demo Editor](https://app.bigdevsoon.me/demo/custom/browser) or use Merlin AI on the full platform for context-aware coding assistance.

@@ -83,4 +83,4 @@ What's missing or incomplete?
 
 These challenges are also available on [BigDevSoon](https://bigdevsoon.me) with **Merlin AI** - a coding assistant built into the editor that understands your full project context. Merlin helps you vibe code through challenges with context-aware suggestions, code generation, and real-time guidance.
 
-Try it with a [7-day free trial](https://bigdevsoon.me) or use the [free Demo Editor](https://bigdevsoon.me/demo/custom/browser) to get started.
+Try it with a [7-day free trial](https://app.bigdevsoon.me) or use the [free Demo Editor](https://app.bigdevsoon.me/demo/custom/browser) to get started.
