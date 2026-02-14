@@ -1,31 +1,69 @@
-# 🚀 100 Days Of Code: Design to Code Challenge
+# 100 Days of Code - Design to Code Challenges
 
-⭐️ Please star this repository to support our community! ⭐️
+Star this repo to support the community and stay updated with new content.
 
-Visit our platform for Developers and discover more fun stuff to build: [BigDevSoon](https://bigdevsoon.me/).
+100 frontend challenges with professional designs, user stories, and acceptance criteria. Build them your way - code from scratch, vibe code with AI, or use [BigDevSoon](https://bigdevsoon.me) with Merlin AI for the full experience.
 
-Welcome to the ultimate 100 Days of Design to Code Challenge! Whether you're just starting out or looking to sharpen your skills, this challenge is your pathway from a Junior to a Senior Frontend Developer with a flair for design. Each day brings a new challenge, complete with a unique design and detailed user stories.
+## What's Inside
 
-## 🌟 Challenge Objective
+Each challenge includes:
 
-The goal is simple: commit to coding by recreating beautiful designs daily for the next 100 days. By the end of this journey, you will have honed your skills in JavaScript, HTML, CSS, and popular frameworks like TailwindCSS. Each project is designed to be engaging, from completing pixel-perfect designs to adding your interactive flair.
+- Professional design mockup (screenshot)
+- User story explaining the context
+- Acceptance criteria to validate your solution
+- Tips for clean implementation
 
-## 🎨 What You Will Achieve
+Perfect for the #100DaysOfCode movement - one challenge per day, from beginner-friendly cards to advanced dashboards.
 
-- Journey From Beginner to Advanced Frontend Developer.
-- Master front-end technologies and frameworks.
-- Build a professional portfolio of 100 unique challenges.
-- Increase your chances of landing a Frontend job by a lot!
+## Get Started
 
-## 📖 How to Approach This Challenge
+**Try it free** - Jump into the [Demo Editor](https://bigdevsoon.me/demo/custom/browser) and start coding instantly, no sign-up needed.
 
-1. **Understand requirements**: Use any combination of HTML/CSS/JS, libraries and frameworks as you wish! Also, each day starts with a clear User Story and Acceptance Criteria to guide your challenge.
-2. **Design to code (1 per day ideally)**: Attempt to replicate the provided design image with precision. Variations are welcomed for personal flair!
-3. **Add Interactivity**: While designs focus on static elements, adding interactive features is encouraged to enhance functionality.
-4. **Log Your Progress**: Keep a daily log of your progress and achievements. When using [BigDevSoon](https://bigdevsoon.me/challenges), tracking, and sharing your progress on social media to showcase your work and inspire others is super easy.
-5. **Challenge resources**: You are only given a design screenshot to work with hence all the icons, fonts, images and other resources need to be searched on your own, while working in BigDevSoon's Platform, we provide resources and BIG users can download Figma Designs with everything included.
+**Full platform** - [BigDevSoon](https://bigdevsoon.me) comes with a **7-day free trial** that includes:
 
-## ☘️ Resource List
+- **Merlin AI** - your built-in coding companion for vibe coding
+- Cloud saves, npm packages, asset libraries, and Figma designs
+- Track progress across all 100 challenges
+
+**Code locally** - Clone this repo and build with your favorite tools.
+
+## AI-Assisted Development
+
+These challenges are structured for AI collaboration. Each has clear specs that work great with coding agents like Claude, Cursor, GitHub Copilot, and others. Feed the user story + acceptance criteria to your AI assistant and iterate together.
+
+See **[AGENTS.md](./AGENTS.md)** for a detailed guide on using AI coding agents with these challenges.
+
+## AI Collaboration Log
+
+In 2026, knowing how to code isn't enough - you need to show you can effectively collaborate with AI tools. Each challenge includes an **AI Collaboration Log** template. Think of it as your prompt engineering portfolio - document which AI tools you used, what prompts worked, what you had to fix manually, and what you learned.
+
+**Why this matters:**
+
+- Companies want to see you can direct AI tools effectively, not just use them blindly
+- Interview talking points: "Here's how I used Claude to build this component in 2 hours instead of 8"
+- **Project Operator mindset** - modern developers architect solutions and delegate to the best tool for the job
+
+The log is optional but recommended. Fill it out as you complete each challenge while your prompts are fresh. You'll build a unique portfolio asset that shows not just *what* you built, but *how* you work.
+
+**Template preview:**
+
+```markdown
+AI Tool Used: Claude Code, Cursor, Copilot, Merlin AI, etc.
+Prompts That Worked: What you asked the AI that produced good results
+Manual Fixes: What the AI got wrong that you had to correct
+Key Learnings: What you learned about effective AI collaboration
+Time Estimate: X hours with AI vs ~Y hours without
+```
+
+## How to Approach
+
+1. **Read the requirements** - Each challenge has a user story and acceptance criteria. Understand what you're building first.
+2. **Design to code** - Replicate the design mockup. Match it closely, but add your own flair.
+3. **Add interactivity** - Designs are static, your code shouldn't be. Bring it to life with JavaScript.
+4. **Log your AI workflow** - Fill out the AI Collaboration Log to build your prompt engineering portfolio.
+5. **Share your work** - Post your solution with #100DaysOfCode and #BigDevSoon.
+
+## Resources
 
 ### Images
 
@@ -56,23 +94,14 @@ The goal is simple: commit to coding by recreating beautiful designs daily for t
 - [Pixabay](https://pixabay.com/sound-effects/)
 - [Freesound](https://freesound.org/)
 
-## 🌐 Join the Community
+## Community
 
-Sign up at [BigDevSoon](https://bigdevsoon.me/challenges) to access community support on Discord and complete all challenges in one place. Free users receive all challenge images and can upgrade for additional resources such as Figma designs.
+- Star this repo and share it with fellow developers
+- [Join BigDevSoon](https://bigdevsoon.me) - complete challenges with Merlin AI and track your progress
+- Share your solutions on [Twitter/X](https://twitter.com/BigDevSoon), [LinkedIn](https://www.linkedin.com/company/bigdevsoon), or [Discord](https://discord.gg/bigdevsoon)
+- Tag #100DaysOfCode and #BigDevSoon to connect with other builders
 
-## 🔗 Sharing Your Work
-
-Make your journey viral by sharing your daily project links and images on platforms like LinkedIn, Twitter, and Instagram. Use the hashtag #100DaysOfCode and tag #BigDevSoon to connect with fellow coders and increase visibility.
-
-## 🔥 Let's Get Coding!
-
-Are you ready to start your coding and design journey? Dive into the challenges, explore new technologies, and transform your skills. Happy coding, and good luck on completing all the challenges!
-
-📅 Start Date: [xx/xx/xxxx]
-
-#100DaysOfCode #CodeToLearn #BigDevSoon #CodeNewbie #Frontend
-
-## 🕸️ Challenge List
+## Challenge List
 
 ### [Day 1](https://github.com/bigdevsoon/100-days-of-code/tree/main/day-01): Profile Card
 
