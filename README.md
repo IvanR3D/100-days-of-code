@@ -22,7 +22,7 @@ The goal is simple: commit to coding by recreating beautiful designs daily for t
 1. **Understand requirements**: Use any combination of HTML/CSS/JS, libraries and frameworks as you wish! Also, each day starts with a clear User Story and Acceptance Criteria to guide your challenge.
 2. **Design to code (1 per day ideally)**: Attempt to replicate the provided design image with precision. Variations are welcomed for personal flair!
 3. **Add Interactivity**: While designs focus on static elements, adding interactive features is encouraged to enhance functionality.
-4. **Log Your Progress**: Keep a daily log of your progress and achievements. When using [BigDevSoon](https://app.bigdevsoon.me/challenges), tracking, and sharing your progress on social media to showcase your work and inspire others is super easy.
+4. **Log Your Progress**: Keep a daily log of your progress and achievements. When using [BigDevSoon](https://bigdevsoon.me/challenges), tracking, and sharing your progress on social media to showcase your work and inspire others is super easy.
 5. **Challenge resources**: You are only given a design screenshot to work with hence all the icons, fonts, images and other resources need to be searched on your own, while working in BigDevSoon's Platform, we provide resources and BIG users can download Figma Designs with everything included.
 
 ## ☘️ Resource List
@@ -58,7 +58,7 @@ The goal is simple: commit to coding by recreating beautiful designs daily for t
 
 ## 🌐 Join the Community
 
-Sign up at [BigDevSoon](https://app.bigdevsoon.me/challenges) to access community support on Discord and complete all challenges in one place. Free users receive all challenge images and can upgrade for additional resources such as Figma designs.
+Sign up at [BigDevSoon](https://bigdevsoon.me/challenges) to access community support on Discord and complete all challenges in one place. Free users receive all challenge images and can upgrade for additional resources such as Figma designs.
 
 ## 🔗 Sharing Your Work
 
