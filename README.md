@@ -1,5 +1,14 @@
 # 100 Days of Code - Design to Code Challenges
 
+## What's new in this fork?
+
+I am using this repo to practice my pure html, css and js skills. In each day folder you can find a .html file with the challenge solved without using AI*.
+
+<sup>*I might use it for SVGs.</sup>
+
+### Current state:
+Day 1 & 2 done to meet criterial (I will keep improving them over time).
+
 Star this repo to support the community and stay updated with new content.
 
 100 frontend challenges with professional designs, user stories, and acceptance criteria. Build them your way - code from scratch, vibe code with AI, or use [BigDevSoon](https://bigdevsoon.me) with Merlin AI for the full experience.

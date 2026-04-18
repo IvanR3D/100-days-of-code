@@ -1,0 +1,171 @@
+<!-- 
+Todo: 
+    - Add interactivity (JS)
+    - Work responsive
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to bag - 100 days of code</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        }
+        body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFF;
+        font-family: system-ui;
+        }
+        article {
+        width: 70%;
+        height: 60%;
+        display: flex;
+        justify-content: space-around;
+        }
+        .images {
+        width: 10%;
+        }
+        .images ul {
+        list-style: none;
+        }
+        .images li {
+        height: 80px;
+        padding: 10px 0;
+        }
+        .images li img {
+        height: 100%;
+        border-radius: 4px;
+        }
+        li img.active {
+        border: 2px solid #2AF;
+        }
+        .main-img {
+        width: 45%;
+        padding: 5px;
+        border-radius: 5px;
+        background-image: url('./shirt-1.png');
+        background-position: center;
+        background-size: cover;
+        }
+        .desc {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px 20px;
+        }
+        .brand {
+        color: #2AF;
+        font-weight: 600;
+        }
+        .price {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+        .desc {
+        padding-left: 40px;
+        }
+        .desc p {
+        color: #A0A0A0;
+        }
+        h2 {
+        display: inline-block;
+        }
+        .discount {
+        background: #2AF;
+        color: #04F;
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 10px;
+        }
+        .normal-price {
+        font-size: 14px;
+        color: #c0c0c0;
+        text-decoration: line-through;
+        }
+        .sizes {
+        margin: 15px 0;
+        }
+        .size {
+        padding: 10px;
+        }
+        .size.active {
+        background-color: black;
+        color: white;
+        }
+        button {
+            width: 90%;
+            background-color: #2AF;
+            color: white;
+            padding: 10px 0;
+            border: none;
+            border-radius: 4px;
+        }
+        .main-footer {
+            position: absolute;
+            bottom: 2px;
+        }
+        .main-footer p {
+            color: #222;
+            font-size: 16px;
+        }
+        .main-footer a {
+            color: #2AF;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <div class="images">
+            <ul>
+                <li><img class="active"
+                        src="./shirt-1.png" />
+                </li>
+                <li><img
+                        src="./shirt-2.png" />
+                </li>
+                <li><img
+                        src="./shirt-3.png" />
+                </li>
+            </ul>
+        </div>
+        <div class="main-img">
+        </div>
+        <div class="desc">
+            <span class="brand">Polo Ralph</span>
+            <h1>Custom Fit Polo Bear Oxford Shirt</h1>
+            <p>Blue polo with a classic cut. Made of smooth and soft cottom.</p>
+            <div class="pricing">
+                <div class="price">
+                    <h2>$99.00</h2>
+                    <span class="discount">-25%</span>
+                </div>
+                <span class="normal-price">$132.00</span>
+            </div>
+            <div class="sizing">
+                <h4>Choose size</h4>
+                <div class="sizes">
+                    <span class="size">S</span>
+                    <span class="size active">M</span>
+                    <span class="size">L</span>
+                    <span class="size">XL</span>
+                    <span class="size">XXL</span>
+                </div>
+            </div>
+            <div>
+                <button>Add to bag</button>
+            </div>
+        </div>
+    </article>
+    <footer class="main-footer">
+        <p>With ❤️ and ☕️ by <a href="https://ivanr3d.com/">Iván R. Artiles</a></p>
+    </footer>
+</body>
+</html>

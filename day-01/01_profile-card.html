@@ -1,0 +1,168 @@
+<!-- 
+Todo: 
+    - Improve waves effect
+    - Add hover effects to buttons
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - 100 days of code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: #EEEEAA;
+            color: #111;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: #FFF;
+            width: 350px;
+            height: 500px;
+            border-radius: 40px;
+            text-align: center;
+            font-family: system-ui;
+        }
+        header {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 35%;
+            background-color: #AA3366;
+            border-radius: 40px 40px 0 0;
+        }
+        .wave-container {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+        }
+        .profile-photo {
+            width: 35%;
+            height: 70%;
+            position: relative;
+            border-radius: 50%;
+            background: #eee;
+            background-image: url('https://ivanr3d.com/assets/img/photo2.webp');
+            background-position: center;
+            background-size: cover;
+        }
+        main {
+          padding: 10px 20px;
+        }
+        h1 {
+            font-weight: 500;
+        }
+        span {
+            font-size: 12px;
+            color: #676767;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 20px 0;
+            font-size: 18px;
+        }
+        li {
+            padding: 0 5px;
+        }
+        li a {
+            color: #111;
+        }
+        p {
+            font-weight: 300;
+            font-size: 12px;
+        }
+        article footer {
+            height: 20%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        article footer button {
+            padding: 10px 40px;
+            border-radius: 40px;
+            border: 1px solid #c0c0c0;
+            background-color: #F9F9F9;
+            color: #c0c0c0;
+        }
+        .cta-btn {
+            background-color: #e03078;
+            color: #EEE;
+            border: none;
+        }
+        .main-footer {
+            position: absolute;
+            bottom: 2px;
+        }
+        .main-footer p {
+            color: #222;
+            font-size: 16px;
+        }
+        .main-footer a {
+            color: #AA3366;
+        }
+    </style>
+</head>
+<body>
+    <article class="card">
+        <header>
+            <div class="wave-container">
+                <svg viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    style="display:block;width:100%;height:60px;">
+                    <path d="M0,20 C40,0 80,40 120,25 C160,10 200,45 240,28 C270,16 295,35 320,22 L320,60 L0,60 Z"
+                        fill="#a83060"></path>
+                    <path d="M0,30 C50,12 90,50 140,32 C180,18 220,48 260,34 C285,24 305,40 320,30 L320,60 L0,60 Z"
+                        fill="#e03078" opacity="0.7"></path>
+                    <path d="M0,42 C60,28 100,55 160,40 C210,28 260,52 320,38 L320,60 L0,60 Z" fill="#fff"></path>
+                </svg>
+            </div>
+            <div class="profile-photo">
+            </div>
+        </header>
+        <main>
+            <div>
+                <h1>Iván R. Artiles</h1>
+                <span>@IvanR3D</span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/ivanartiles/"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/ivanrart_/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://x.com/IvanRArtiles"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/ivanR3D/"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://codepen.io/ivanr3d"><i class="fa-brands fa-codepen"></i></a></li>
+                </ul>
+            </div>
+            <p>I'm a creator who loves to make things that feel alive. I believe tech can be fun, inspiring, and a tool
+                for creativity; not just something that works.</p>
+        </main>
+        <footer>
+            <button class="cta-btn">Follow</button>
+            <button>Message</button>
+        </footer>
+    </article>
+    <footer class="main-footer">
+        <p>With ❤️ and ☕️ by <a href="https://ivanr3d.com/">Iván R. Artiles</a></p>
+    </footer>
+</body>
+</html>
