@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation - 100 days of code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  font-family: system-ui;
+}
+.navbar {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: #FFF;
+  padding: 0px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+header img {
+  width: 50px;
+  heigh: 40px;
+  border-radius: 15px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+}
+.name {
+  font-weight: 800;
+}
+.title {
+  font-weight: 600;
+  color: #777;
+}
+hr {
+  border: none;
+  border-top: 1px solid #c0c0c0;
+  margin: 5px 0;
+  color: #c0c0c0;
+}
+main {
+  height: 75%;
+  font-size: 14px;
+}
+main ul {
+  list-style: none;
+}
+main ul li {
+  width: 100%;
+  padding: 8px 0;
+  font-weight: 700;
+  font-size: 12px;
+}
+ul li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+main ul li i {
+  background-color: #e4e4e4;
+  padding: 5px;
+  border-radius: 8px;
+}
+ul li span {
+  font-size: 14px;
+  font-weight: 400;
+  float: right;
+}
+footer {
+  width: 100%;
+  height: 10%;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #c0c0c0;
+}
+footer ul li {
+  padding: 4px;
+}
+ul li.active {
+  opacity: 1;
+  color: #04F;
+  background-color: #5AF;
+  border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+    <article class="navbar">
+      <header>
+        <img src="https://ivanr3d.com/assets/img/photo2.webp"/>
+        <div class="info">
+          <span class="name">Iván R. Artiles</span>
+          <span class="title">Creative Technologist</span>
+        </div>
+      </header>
+      <hr/>
+      <main>
+        <ul>
+          <li><i class="fa-solid fa-user-group"></i> Personal Data <span>></span></li>
+          <li><i class="fa-solid fa-envelope"></i> Messages <span>></span></li>
+          <li><i class="fa-solid fa-bell"></i> Notifications <span>></span></li>
+          <li><i class="fa-solid fa-location-dot"></i> Location <span>></span></li>
+          <li><i class="fa-solid fa-users"></i> Community <span>></span></li>
+          <hr/>
+          <li><i class="fa-solid fa-circle-question"></i> FAQs <span>></span></li>
+          <li><i class="fa-solid fa-gear"></i> Settings <span>></span></li>
+        </ul>
+      </main>
+      <footer>
+        <ul>
+          <li><i class="fa-regular fa-house"></i></li>
+          <li><i class="fa-solid fa-chart-line"></i></li>
+          <li><i class="fa-regular fa-envelope"></i></li>
+          <li class="active"><i class="fa-regular fa-user"></i></li>
+        </ul>
+      </footer>
+    </article>
+</body>
+</html>
