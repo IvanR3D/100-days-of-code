@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe - 100 days of code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            font-size: 12px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 4px 0;
+        }
+
+        p {
+            padding: 10px 0;
+        }
+
+        input[type="checkbox"] {
+            border: 2px solid #ccc;
+            accent-color: #FA1;
+        }
+
+        .left {
+            width: 50%;
+            height: 100%;
+            background-image: url('https://www.littlesugarsnaps.com/wp-content/uploads/2019/06/Sweet-Iced-Coffee-featured-image-1589.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #title-down {
+            position: absolute;
+            bottom: 20px;
+            width: 25%;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        #title-up {
+            position: absolute;
+            top: 5%;
+            left: 30%;
+            width: 50%;
+            font-size: 14px;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .right {
+            width: 50%;
+            padding: 0px 30px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 35%;
+            padding: 20px 0;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+        }
+
+        .stat i {
+            font-size: 20px;
+            color: #FA1;
+            padding: 0 4px;
+        }
+
+        .stat div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .h {
+            color: #FA1;
+        }
+
+        .list {
+            padding: 10px 0;
+        }
+
+        .list h3 {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div id="title-down">
+            <span>SWEET ICED COFFEE WITH COCONUT MILK</span>
+        </div>
+    </div>
+    <div id="title-up">
+        <h1>SWEET ICED COFFEE WITH COCONUT MILK</h1>
+    </div>
+    <div class="right">
+        <div class="stats">
+            <div class="stat">
+                <i class="fa-solid fa-stopwatch"></i>
+                <div>
+                    <span>TOTAL TIME</span>
+                    <span class="h">10 minutes</span>
+                </div>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <span>LEVEL</span>
+                    <span class="h">easy</span>
+                </div>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-wallet"></i>
+                <div>
+                    <span>BUDGET</span>
+                    <span class="h">under $2.00</span>
+                </div>
+            </div>
+        </div>
+        <p>Sweet Iced Coffee with coconut milk is easy to make and stores well in the fridge. Make a lareg batch and
+            save yourself a few trips to the coffee shop.</p>
+        <div class="list">
+            <h3>INGREDIENTS</h3>
+            <ul>
+                <li><input type="checkbox" checked /> <label>3 tablespoon Espresso coffee powder</label></li>
+                <li><input type="checkbox" /> <label>1 cup off the boil water</label></li>
+                <li><input type="checkbox" /> <label>1 cup coconut milk</label></li>
+                <li><input type="checkbox" /> <label>3 tablespoon Espresso coffee powder</label></li>
+            </ul>
+        </div>
+        <div class="list">
+            <h3>INSTRUCTIONS</h3>
+            <ul>
+                <li><span>1. Boil some water and let sit for 1/2 minutes.</span></li>
+                <li><span>2. Put the coffee grounds into a cafetiere and pour in the water.</span></li>
+                <li><span>3. Let the coffee stear for 5 minutes then slowly press down the plunger on your
+                        cafetiere.</span></li>
+                <li><span>4. Pour the coffee into a jug, allow to cool then chill for several hours.</span></li>
+                <li><span>5. Whisk in the coconut milk and condensed milk and serve over plenty of ice.</span></li>
+                <li><span>6. This coffee can be stored in the fridge for up to 5 days. Shake or stir again before
+                        serving.</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
